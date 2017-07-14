@@ -1,13 +1,11 @@
 package com.yushan.coronademo;
 
-import android.provider.Settings;
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
 
     private CoronaView corona;
 
@@ -31,5 +29,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void initData(){
         Log.e("yushan","hahah");
+    }
+
+    private void initData_2(){
+        Log.e("yushan","heihei");
     }
 }
