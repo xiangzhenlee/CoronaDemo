@@ -1,7 +1,9 @@
 package com.yushan.coronademo;
 
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -27,5 +29,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    private void initData(){}
+    private void initData(){
+        Log.e("yushan","hahah");
+    }
 }
